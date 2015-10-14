@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'package.json' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json
+5 warn package.json mongol@1.0.0 No description
+6 warn package.json mongol@1.0.0 No repository field.
+7 warn package.json mongol@1.0.0 No README data
+8 verbose readDependencies loading dependencies from /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json
+9 silly cache add args [ 'package.json', null ]
+10 verbose cache add spec package.json
+11 silly cache add parsed spec { raw: 'package.json',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'package.json',
+11 silly cache add   spec: '/home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 6239259794c71aa97ea4cb3922d0e30090aff310
+13 verbose addTmpTarball /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json not in flight; adding
+14 verbose addTmpTarball validating metadata from /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json
+15 verbose tar unpack /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json
+16 verbose tar unpacking to /tmp/npm-3846-f5abc072/unpack-260d292e62a1
+17 silly gentlyRm /tmp/npm-3846-f5abc072/unpack-260d292e62a1 is being purged
+18 verbose gentlyRm don't care about contents; nuking /tmp/npm-3846-f5abc072/unpack-260d292e62a1
+19 silly gunzTarPerm modes [ '775', '664' ]
+20 error not a package /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json
+21 error addLocal Could not install /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol/package.json
+22 verbose stack Error: ENOENT, open '/tmp/npm-3846-f5abc072/unpack-260d292e62a1/package.json'
+22 verbose stack     at Error (native)
+23 verbose cwd /home/natali/from-notebook/Natali/learning/epicskills/mywork/mongol
+24 error Linux 3.16.0-50-generic
+25 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "package.json"
+26 error node v0.12.7
+27 error npm  v2.11.3
+28 error path /tmp/npm-3846-f5abc072/unpack-260d292e62a1/package.json
+29 error code ENOENT
+30 error errno -2
+31 error enoent ENOENT, open '/tmp/npm-3846-f5abc072/unpack-260d292e62a1/package.json'
+31 error enoent This is most likely not a problem with npm itself
+31 error enoent and is related to npm not being able to find a file.
+32 verbose exit [ -2, true ]
